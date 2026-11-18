@@ -1,6 +1,6 @@
 # <img src="assets/rover.svg" width="66" alt="" /> Ahmed Abdelghafar Mohamed
 
-I study computer science at Egyptian Chinese University. I built an offline planner because I wanted my timetable, notes, and deadlines in one place. My latest project takes a small detour from campus to Mars.
+I study computer science at The Egyptian Chinese University. I built an offline planner because I wanted my timetable, notes, and deadlines in one place. My latest project takes a small detour from campus to Mars.
 
 [LinkedIn](https://www.linkedin.com/in/ahmed-el-zoghby-8320ab278) · [Email](mailto:zoghby2007@gmail.com) · [Browse my repositories](https://github.com/zoghby-ctrl?tab=repositories)
 
