@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="54" viewBox="0 0 96 54" fill="none">
+  <style>
+    .ping { animation: radio 3.2s ease-out infinite; }
+    @keyframes radio { 0%, 65%, 100% { opacity: .24; } 80% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { .ping { animation: none; } }
+  </style>
+  <rect width="96" height="54" rx="10" fill="#142539"/>
+  <path d="M2 46 19 45 29 47 51 46 65 43 80 44 94 40" stroke="#9a776b" stroke-width="2"/>
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <path d="m27 28 5 9 20 3 12-8" stroke="#83bea9" stroke-width="3"/>
+    <path d="m23 24 32 1 11-4-3 9-33 3Z" fill="#efa07f" stroke="#f9c09c" stroke-width="1.6"/>
+    <path d="m52 25 2-13" stroke="#f4d4b4" stroke-width="3"/>
+    <rect x="49" y="8" width="15" height="7" rx="2" fill="#bee5dc"/>
+    <circle cx="60" cy="11.5" r="2" fill="#203b48"/>
+    <path d="m34 23-8-8m-5 1c3 5 9 5 13-1" stroke="#8dc4c3" stroke-width="2.2"/>
+    <path class="ping" d="M21 12a6 6 0 0 1 6-6m-11 5A12 12 0 0 1 26 2" stroke="#8cf1d5" stroke-width="1.7"/>
+    <path d="m27 39 12-6 9 8 10-9 10 5" stroke="#c0d4d4" stroke-width="2.6"/>
+  </g>
+  <g fill="#263e4b" stroke="#d5e8df" stroke-width="2.2">
+    <circle cx="27" cy="40" r="4.8"/><circle cx="48" cy="41" r="4.8"/><circle cx="68" cy="37" r="4.8"/>
+  </g>
+</svg>
