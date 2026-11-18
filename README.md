@@ -6,13 +6,18 @@ I study computer science at The Egyptian Chinese University. I built an offline 
 
 ## 🛰️ Latest build · Marswalk
 
-**How would you cross Jezero crater?** My teammate and I built Marswalk as Team Quantumions for NASA Space Apps 2026. Pick two Perseverance sites, tell the planner how much to avoid steep or poorly measured terrain, and see where A* takes you.
+<a href="https://github.com/zoghby-ctrl/zoghby-ctrl/blob/main/assets/jezero-relief.stl">
+  <picture>
+    <source media="(prefers-reduced-motion: no-preference)" srcset="https://raw.githubusercontent.com/zoghby-ctrl/zoghby-ctrl/main/assets/jezero-orbit.webp">
+    <img src="assets/jezero-relief.png" alt="3D relief of Jezero’s western delta. A mint line traces the planned route from Butler landing (A) to the sol 1100 site (B). Open the terrain model.">
+  </picture>
+</a>
 
-[![Marswalk’s default route across Jezero crater, from Butler landing to the sol 1100 site, over Mars Reconnaissance Orbiter imagery.](assets/jezero-traverse.png)](https://zoghby-ctrl.github.io/quantumions-martian-map/)
+**[Rotate the terrain in 3D ↗](https://github.com/zoghby-ctrl/zoghby-ctrl/blob/main/assets/jezero-relief.stl)** · [Download the textured model (.glb)](https://github.com/zoghby-ctrl/zoghby-ctrl/raw/refs/heads/main/assets/marswalk.glb) · [Plan your own traverse ↗](https://zoghby-ctrl.github.io/quantumions-martian-map/) · [Source code](https://github.com/zoghby-ctrl/quantumions-martian-map)
 
-The default route covers **9.55 km** and climbs **234 m**. Try increasing the slope penalty and see whether you’d still take the same path.
+**Would you take the longer way across Mars to avoid a steep climb?** My teammate and I built Marswalk as Team Quantumions for NASA Space Apps 2026. The mint line follows our planner’s default A* route between two Perseverance sites. It covers **9.55 km** and climbs **234 m**. Change the slope penalty in the planner and compare paths.
 
-[Plan a traverse ↗](https://zoghby-ctrl.github.io/quantumions-martian-map/) · [Read the code](https://github.com/zoghby-ctrl/quantumions-martian-map) · [Explore the data sources](https://zoghby-ctrl.github.io/quantumions-martian-map/#sources)
+<sub>Relief from MGS/MOLA elevations (NASA GSFC and the MOLA Science Team), with colorized MRO/CTX imagery (NASA, JPL-Caltech, MSSS, and USGS Astrogeology). Heights are exaggerated 5×. <a href="https://zoghby-ctrl.github.io/quantumions-martian-map/#sources">Mission data and sources ↗</a></sub>
 
 ## On Earth
 
