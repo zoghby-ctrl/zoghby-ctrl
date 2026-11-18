@@ -2,7 +2,7 @@
 
 I study computer science at The Egyptian Chinese University. I built an offline planner because I wanted my timetable, notes, and deadlines in one place. My latest project takes a small detour from campus to Mars.
 
-[LinkedIn](https://www.linkedin.com/in/ahmed-el-zoghby-8320ab278) · [Email](mailto:zoghby2007@gmail.com) · [Browse my repositories](https://github.com/zoghby-ctrl?tab=repositories)
+[LinkedIn](https://www.linkedin.com/in/ahmed-el-zoghby-8320ab278) · [Email](mailto:zoghby2007@gmail.com) · [Meet our robot ↓](#interactive-mobile-robot) · [Browse my repositories](https://github.com/zoghby-ctrl?tab=repositories)
 
 ## 🛰️ Latest build · Marswalk
 
@@ -21,11 +21,31 @@ I study computer science at The Egyptian Chinese University. I built an offline 
 
 ## On Earth
 
+### Interactive mobile robot
+
+<a href="https://github.com/zoghby-ctrl/zoghby-ctrl/blob/main/assets/mobile-robot.stl">
+  <picture>
+    <source media="(prefers-reduced-motion: no-preference)" srcset="https://raw.githubusercontent.com/zoghby-ctrl/zoghby-ctrl/main/assets/mobile-robot.webp">
+    <img src="assets/mobile-robot.png" alt="Concept model of our four-wheel robot with an ivory shell, OLED smile, camera, and two short gesture paddles. Open the 3D model.">
+  </picture>
+</a>
+
+For our Computer Architecture project, my team is designing a mobile robot that can turn toward you and wave. Two servos aim the head, and each paddle has a servo of its own. The planned head carries a camera, microphone, and 2.42-inch OLED. The rangefinder sits low on the four-wheel chassis.
+
+This concept animation shows the greeting we're designing. **[Rotate the model ↗](https://github.com/zoghby-ctrl/zoghby-ctrl/blob/main/assets/mobile-robot.stl)** · [Download the animated GLB](https://github.com/zoghby-ctrl/zoghby-ctrl/raw/refs/heads/main/assets/mobile-robot.glb)
+
 ### 🎓 Semester OS
 
 Upload a timetable and turn it into a weekly schedule with rooms, notes, and deadlines. I built it with ECU students in mind. Even the OCR runs in the browser, so your timetable stays on your device.
 
 `TypeScript` `IndexedDB` · [Try the demo semester ↗](https://semester-os-4y6.pages.dev/) · [Source](https://github.com/zoghby-ctrl/semester-os)
+
+<details>
+<summary>See a day in the demo semester</summary>
+
+![Semester OS Today view with the next class, weekly schedule, and study progress.](https://raw.githubusercontent.com/zoghby-ctrl/semester-os/bfbc1e5be38a4ed01d51372d77439bb68024f6c3/docs/screenshots/01-today-prism.png)
+
+</details>
 
 ### 🚑 Q-Rescue
 
@@ -33,11 +53,25 @@ The shortest predicted trip can still miss a deadline. For my Quantum AI course,
 
 `Python` `PennyLane` `Streamlit` · [Explore the research and results ↗](https://github.com/zoghby-ctrl/Q-Rescue)
 
+<details>
+<summary>See the route comparison console</summary>
+
+![Q-Rescue decision console with a synthetic road grid, a deadline control, and the classical-to-quantum processing steps.](https://raw.githubusercontent.com/zoghby-ctrl/Q-Rescue/dba597a1aaa3075c1334a1bce7cc965c151f1d22/output/playwright/final-polish-desktop.png)
+
+</details>
+
 ### 🔌 Circuit Copilot
 
 Wire a circuit on a canvas, flip its inputs, and export an Arduino or ESP32 sketch. A browser agent can place components and connect pins on the same canvas you’re looking at.
 
 `TypeScript` `React Flow` `WebMCP` · [Open the canvas ↗](https://circuit-copilot.vercel.app/) · [Source](https://github.com/zoghby-ctrl/Circuit-Copilot)
+
+<details>
+<summary>See a one-bit half adder on the canvas</summary>
+
+![Circuit Copilot running its half-adder demo with DIP switches, XOR and AND gates, and two output LEDs.](assets/circuit-canvas.png)
+
+</details>
 
 <details>
 <summary><strong>More builds · developer tools, city maps, and a game of Pong</strong></summary>
