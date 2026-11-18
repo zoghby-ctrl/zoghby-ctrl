@@ -1,49 +1,58 @@
-# Ahmed Abdelghafar Mohamed
+<h1 align="center">
+  <img src="assets/profile-banner.svg" width="100%" alt="Ahmed Abdelghafar Mohamed · @zoghby-ctrl" />
+</h1>
 
-**Computer Science Undergraduate · AI, Software Engineering & Intelligent Systems**
+<p align="center">
+  <strong>Computer Science undergraduate at Egyptian Chinese University</strong><br />
+  I build software for students, tools for developers, and the occasional route planner for Mars.
+</p>
 
-I'm a Computer Science undergraduate at Egyptian Chinese University (ECU). I build practical software across AI-assisted tools, web applications, embedded systems, and interactive experiences, with an interest in algorithms and how intelligent systems behave in practice.
+<p align="center">
+  <a href="https://www.linkedin.com/in/ahmed-el-zoghby-8320ab278">LinkedIn</a> ·
+  <a href="mailto:zoghby2007@gmail.com">Email</a> ·
+  <a href="https://github.com/zoghby-ctrl?tab=repositories">All repositories</a>
+</p>
 
-## Current work
+## 🛰️ New releases
 
-- **SemesterOS** — developing a local-first academic workspace for schedules, coursework, and study progress, built primarily for ECU CS students.
-- **Circuit Copilot** — exploring agent-driven circuit design, digital logic simulation, and firmware generation.
-- **Three Ways Out** — working on a story-driven Unreal Engine game with C++ and Blueprints.
-- **Q-Rescue** — studying hybrid quantum-classical optimization for uncertainty-aware emergency route selection using QAOA. Research project; repository currently private.
+**[Marswalk](https://github.com/zoghby-ctrl/quantumions-martian-map)** · [Explore the map ↗](https://zoghby-ctrl.github.io/quantumions-martian-map/)<br />
+Built with Team Quantumions for NASA Space Apps 2026. Plot a traverse across Jezero crater using Mars orbiter imagery, elevation data, and terrain-aware A* routing.
 
-## Selected projects
+**[Ethics, in Practice](https://github.com/zoghby-ctrl/PracticeEthics)** · [Try a quiz ↗](https://zoghby-ctrl.github.io/PracticeEthics/)<br />
+An offline-capable revision app for computing ethics with 112 source-cited questions, configurable quizzes, and progress saved in the browser.
 
-| Project | What it does | Technologies |
-| --- | --- | --- |
-| [SemesterOS](https://github.com/zoghby-ctrl/semester-os) · [Live beta](https://semester-os-4y6.pages.dev) | Brings timetables, notes, assignments, attendance, and planning into an accountless, offline-capable semester workspace. | TypeScript, PWA, IndexedDB, local OCR |
-| [Circuit Copilot](https://github.com/zoghby-ctrl/Circuit-Copilot) | Lets browser agents place components, wire circuits, simulate digital logic, and export Arduino/ESP32 firmware from a shared visual canvas. | Next.js, React Flow, TypeScript, WebMCP |
-| [Forge](https://github.com/zoghby-ctrl/Forge) | Turns GitHub pull-request context into evidence-backed Change Passports that preserve engineering decisions and constraints. | Next.js, TypeScript, PostgreSQL, AI APIs |
-| [Converge](https://github.com/zoghby-ctrl/Converge) | An AI-assisted urban incident-intelligence prototype that groups observations and distinguishes independent evidence from duplicate reports for human inspection triage. | React, TypeScript, Python, FastAPI, MapLibre |
-| [Multiplayer Pong](https://github.com/zoghby-ctrl/Multiplayer-Pong-CPP) | A team-built LAN multiplayer game with a client-server architecture, synchronized gameplay, and shared networking protocols. | C++, Win32 sockets, OpenGL |
-| [Smart Assistant Cane](https://github.com/zoghby-ctrl/AI-Smart-Assistant-Cane) | An ESP32 mobility-aid prototype with velocity-based obstacle warnings and automatic low-light safety lighting. | MicroPython, ESP32, ultrasonic sensors |
+## ⚡ Featured projects
 
-More work: [PatchPilot AI](https://github.com/zoghby-ctrl/PatchPilotAI) — code-review and debugging assistant with rule-based analysis and optional model support; [Jarvis](https://github.com/zoghby-ctrl/Jarvis-AI) — voice assistant with local LLM inference and application-launching capabilities.
+**[Semester OS](https://github.com/zoghby-ctrl/semester-os)** · [Live beta ↗](https://semester-os-4y6.pages.dev/)<br />
+Import a university timetable and keep notes, assignments, attendance, and study plans in one offline-capable workspace.<br />
+<sub>TypeScript · IndexedDB · PWA</sub>
 
-## Tech stack
+**[Q-Rescue](https://github.com/zoghby-ctrl/Q-Rescue)**<br />
+Compare classical route selection with simulated QAOA for emergency-routing scenarios with uncertain travel times.<br />
+<sub>Python · PennyLane · Streamlit</sub>
 
-Technologies I use across my projects:
+**[Circuit Copilot](https://github.com/zoghby-ctrl/Circuit-Copilot)** · [Open canvas ↗](https://circuit-copilot.vercel.app/)<br />
+Build and simulate digital circuits, export Arduino or ESP32 firmware, and let browser agents work on the same canvas via WebMCP.<br />
+<sub>TypeScript · Next.js · React Flow</sub>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=cplusplus&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![Unreal Engine](https://img.shields.io/badge/Unreal_Engine-313131?style=flat&logo=unrealengine&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+**[Forge](https://github.com/zoghby-ctrl/Forge)** · [Open app ↗](https://forge-woad-eight.vercel.app/)<br />
+Turn a GitHub pull request into a Change Passport that records what changed, why, and what the evidence says.<br />
+<sub>Next.js · TypeScript · PostgreSQL</sub>
 
-## GitHub activity
+**[Converge](https://github.com/zoghby-ctrl/Converge)** · [Open demo ↗](https://converge-uni-bud.vercel.app/)<br />
+Group reports of urban incidents, distinguish duplicate reports from independent evidence, and prioritize inspections.<br />
+<sub>React · FastAPI · MapLibre</sub>
 
-[![Ahmed's GitHub statistics](https://github-readme-stats.vercel.app/api?username=zoghby-ctrl&show_icons=false&hide_title=true&hide_rank=true&hide=stars,issues&hide_border=true&theme=transparent)](https://github.com/zoghby-ctrl?tab=repositories)
+**[Multiplayer Pong](https://github.com/zoghby-ctrl/Multiplayer-Pong-CPP)**<br />
+Play synchronized Pong over LAN with a team-built client and server.<br />
+<sub>C++ · Win32 sockets · OpenGL</sub>
 
-## Connect
+**Side projects** · [ESP32 smart cane](https://github.com/zoghby-ctrl/AI-Smart-Assistant-Cane) · [PatchPilot AI](https://github.com/zoghby-ctrl/PatchPilotAI) · [Jarvis voice assistant](https://github.com/zoghby-ctrl/Jarvis-AI) · Three Ways Out (Unreal Engine)
 
-[LinkedIn](https://www.linkedin.com/in/ahmed-el-zoghby-8320ab278) · [Email](mailto:zoghby2007@gmail.com) · [GitHub](https://github.com/zoghby-ctrl)
+## 📊 GitHub by the numbers
 
+**308** contributions in the past year<br />
+**16** public repositories<br />
+**3** stars earned · **41** followers
+
+<sub>Snapshot taken November 18, 2026.</sub>
